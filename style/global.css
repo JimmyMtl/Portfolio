@@ -25,6 +25,8 @@ body {
 }
 
 .cvObject {
-    min-width: 100%;
-    min-height: 100vh;
+    display: block;
+    margin: auto;
+    min-width: 90dvw;
+    min-height: 80dvh;
 }
