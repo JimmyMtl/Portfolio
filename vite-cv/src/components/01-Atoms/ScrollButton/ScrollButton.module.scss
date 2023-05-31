@@ -1,8 +1,8 @@
 .container {
   position: absolute;
   bottom: 1rem;
-  left: calc(10%);
-  animation: move 4s ease-in-out;
+  right: calc(10%);
+  animation: move infinite 4s ease-in-out;
   transition: .25s ease-in-out;
 }
 @keyframes move {
