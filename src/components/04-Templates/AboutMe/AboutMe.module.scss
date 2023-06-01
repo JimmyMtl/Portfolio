@@ -65,49 +65,13 @@
         color: #3E727A;
       }
 
-      .showButton {
-        padding: .5rem 1rem;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: .5rem;
-        width: 200px;
-        border-radius: 5px;
-        color: #3E727A;
-        border: 1px solid #3E727A;
-        transition: .25s ease-in-out;
 
-        &:hover {
-          cursor: pointer;
-          color: white;
-          border-color: white;
-        }
-
-        .chevron {
-          width: .75rem;
-          height: .75rem;
-          transition: .25s ease-in-out;
-
-          &.rotate {
-            transform: rotate(180deg);
-          }
-        }
-      }
 
       p:nth-of-type(2) {
         overflow: hidden;
         transition: all .25s ease-in-out;
 
-        &.showLess {
-          max-height: 0;
-          transition: max-height .845s cubic-bezier(.44, .99, .48, 1);
-        }
 
-        &.showMore {
-          max-height: 10;
-          transition: max-height .845s cubic-bezier(1, .48, .99, .44);
-        }
       }
 
 

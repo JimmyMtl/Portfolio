@@ -1,9 +1,9 @@
 import style from "./Portfolio.module.scss"
-import club from "../../00-Base/assets/images/Projects/ClubAtouTalent.png"
-import movielook from "../../00-Base/assets/images/Projects/MovieLook.png"
-import mtlk from "../../00-Base/assets/images/Projects/MTLK.png"
-import stlogiks from "../../00-Base/assets/images/Projects/STLogiks.png"
-import hameau from "../../00-Base/assets/images/Projects/HameauDeLaSavaouillane.png"
+import club from "../../00-Base/assets/images/Projects/ClubAtouTalent/ClubAtouTalent.jpg"
+import movielook from "../../00-Base/assets/images/Projects/MovieLook/MovieLook.jpg"
+import mtlk from "../../00-Base/assets/images/Projects/MTLK/MTLK.jpg"
+import stlogiks from "../../00-Base/assets/images/Projects/STLogiks/STLogiks.jpg"
+import hameau from "../../00-Base/assets/images/Projects/HameauDeLaSavouillane/HameauDeLaSavaouillane.jpg"
 import Modal from "../../01-Atoms/Modal/Modal.tsx";
 
 const Portfolio = () => {
@@ -12,14 +12,7 @@ const Portfolio = () => {
             <h5>PORTFOLIO</h5>
             <h2>WORK I HAVE <span className={"gradient"}>DONE</span>.</h2>
             <div className={style.projects}>
-                <Modal>
-                    {/*<a href={"#"} title={"Club AtouTalent"} className={style.project} target={"_blank"} rel={"noreferrer"}>*/}
-                    <img src={club} alt="Club AtouTalent"/>
-                    <div className={style.labelContainer}>
-                        <span>Club AtouTalent</span>
-                    </div>
-                    {/*</a>*/}
-                </Modal>
+
                 <Modal>
                     {/*// <a href={"#"} title={"Club AtouTalent"} className={style.project} target={"_blank"}*/}
                     {/*   rel={"noreferrer"}>*/}

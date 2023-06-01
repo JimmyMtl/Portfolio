@@ -1,18 +1,13 @@
 import style from "./AboutMe.module.scss"
-import profile from "../../00-Base/assets/images/profile.png"
+import profile from "../../00-Base/assets/images/profile.jpg"
 import CalendarCheck from "../../01-Atoms/SVG/CalendarCheck/CalendarCheck.tsx";
 import School from "../../01-Atoms/SVG/School/School.tsx";
 import ScrollButton from "../../01-Atoms/ScrollButton/ScrollButton.tsx";
 import Github from "../../01-Atoms/SVG/Github/Github.tsx";
 import Gitlab from "../../01-Atoms/SVG/Gitlab/Gitlab.tsx";
 import Stackoverflow from "../../01-Atoms/SVG/Stackoverflow/Stackoverflow.tsx";
-import {useState} from "react";
-import DownChevron from "../../01-Atoms/SVG/DownChevron/DownChevron.tsx";
 
 const AboutMe = () => {
-    const [showMore, setShowMore] = useState(false);
-
-    const handleTrigger = () => setShowMore(precState => !precState)
     return (
         <section className={style.container} id="aboutme">
             <div className={style.contentContainer}>
@@ -46,7 +41,7 @@ const AboutMe = () => {
                         Node.js.
                         Additionally, I enjoy working with Python and C#. </p>
 
-                    <p className={showMore ? style.showMore : style.showLess}>
+                    <p>
                         My skill set encompasses the full spectrum of development, ranging from front-end to
                         back-end,
                         including devOps. I approach my work with humility, constantly striving to learn and
@@ -54,10 +49,6 @@ const AboutMe = () => {
                         while
                         showcasing my expertise.
                     </p>
-                    <button type={"button"} onClick={handleTrigger}
-                            className={style.showButton}>{!showMore ? "Show More" : "Show Less"} <DownChevron
-                        className={`${style.chevron} ${showMore ? style.rotate : ""}`}/>
-                    </button>
 
 
                     <div className={style.logosContainer}>

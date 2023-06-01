@@ -1,10 +1,10 @@
 import style from "./Experience.module.scss"
 import ScrollButton from "../../01-Atoms/ScrollButton/ScrollButton.tsx";
 import CardsList from "../../03-Organisms/CardsList/CardsList.tsx";
-import Razorfish from "../../00-Base/assets/images/Logos/Razorfish.png"
-import Club from "../../00-Base/assets/images/Logos/ClubAtouTalent.png"
-import Mtlk from "../../00-Base/assets/images/Logos/MTLK.png"
-import Sncf from "../../00-Base/assets/images/Logos/Sncf.png"
+import Razorfish from "../../00-Base/assets/images/Logos/Razorfish/Razorfish.png"
+import Club from "../../00-Base/assets/images/Logos/ClubAtouTalent/ClubAtouTalent.png"
+import Mtlk from "../../00-Base/assets/images/Logos/MTLK/MTLK.png"
+import Sncf from "../../00-Base/assets/images/Logos/Sncf/Sncf.png"
 
 
 const experienceList = [

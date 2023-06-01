@@ -1,8 +1,8 @@
 import style from "./Education.module.scss"
 import ScrollButton from "../../01-Atoms/ScrollButton/ScrollButton.tsx";
-import Epitech from "../../00-Base/assets/images/Logos/Epitech.png"
+import Epitech from "../../00-Base/assets/images/Logos/Epitech/Epitech.png"
 import CardsList from "../../03-Organisms/CardsList/CardsList.tsx";
-import Loritz from "../../00-Base/assets/images/Logos/Loritz.png"
+import Loritz from "../../00-Base/assets/images/Logos/Loritz/Loritz.png"
 
 const educationList = [
     {
