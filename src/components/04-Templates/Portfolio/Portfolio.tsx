@@ -20,53 +20,53 @@ const Portfolio = () => {
                     </div>
                     {/*</a>*/}
                 </Modal>
-                {/*<Modal>*/}
+                <Modal>
                     {/*// <a href={"#"} title={"Club AtouTalent"} className={style.project} target={"_blank"}*/}
-                {/*    /!*   rel={"noreferrer"}>*!/*/}
-                {/*        <img src={club} alt="Club AtouTalent"/>*/}
-                {/*        <div className={style.labelContainer}>*/}
-                {/*            <span>Club AtouTalent</span>*/}
-                {/*        </div>*/}
-                {/*    /!*</a>*!/*/}
-                {/*</Modal>*/}
-                {/*<Modal>*/}
-                {/*    /!*<a href={"https://movielook.mtlk.fr"} title={"MovieLook"} className={style.project}*!/*/}
-                {/*    /!*   target={"_blank"}*!/*/}
-                {/*    /!*   rel={"noreferrer"}>*!/*/}
-                {/*        <img src={movielook} alt="MovieLook"/>*/}
-                {/*        <div className={style.labelContainer}>*/}
-                {/*            <span>MovieLook</span>*/}
-                {/*        </div>*/}
-                {/*    /!*</a>*!/*/}
-                {/*</Modal>*/}
-                {/*<Modal>*/}
-                {/*    /!*<a href={"https://hameau-de-la-savouillane.com"} title={"Hameau de la Savouillane"}*!/*/}
-                {/*    /!*   className={style.project} target={"_blank"} rel={"noreferrer"}>*!/*/}
-                {/*        <img src={hameau} alt="Hameau de la Savouillane"/>*/}
-                {/*        <div className={style.labelContainer}>*/}
-                {/*            <span>Hameau de la Savouillane</span>*/}
-                {/*        </div>*/}
-                {/*    /!*</a>*!/*/}
-                {/*</Modal>*/}
-                {/*<Modal>*/}
-                {/*    /!*<a href={"https://mtlk.fr"} title={"MTLK IT"} className={style.project} target={"_blank"}*!/*/}
-                {/*    /!*   rel={"noreferrer"}>*!/*/}
-                {/*        <img src={mtlk} alt="MTLK IT"/>*/}
-                {/*        <div className={style.labelContainer}>*/}
-                {/*            <span>MTLK IT</span>*/}
-                {/*        </div>*/}
-                {/*    /!*</a>*!/*/}
-                {/*</Modal>*/}
-                {/*<Modal>*/}
-                {/*    /!*<a href={"https://stlogiks.fr"} title={"ST Logiks project"} className={style.project}*!/*/}
-                {/*    /!*   target={"_blank"}*!/*/}
-                {/*    /!*   rel={"noreferrer"}>*!/*/}
-                {/*        <img src={stlogiks} alt="ST Logiks"/>*/}
-                {/*        <div className={style.labelContainer}>*/}
-                {/*            <span>ST Logiks</span>*/}
-                {/*        </div>*/}
-                {/*    /!*</a>*!/*/}
-                {/*</Modal>*/}
+                    {/*   rel={"noreferrer"}>*/}
+                        <img src={club} alt="Club AtouTalent"/>
+                        <div className={style.labelContainer}>
+                            <span>Club AtouTalent</span>
+                        </div>
+                    {/*</a>*/}
+                </Modal>
+                <Modal>
+                    {/*<a href={"https://movielook.mtlk.fr"} title={"MovieLook"} className={style.project}*/}
+                    {/*   target={"_blank"}*/}
+                    {/*   rel={"noreferrer"}>*/}
+                        <img src={movielook} alt="MovieLook"/>
+                        <div className={style.labelContainer}>
+                            <span>MovieLook</span>
+                        </div>
+                    {/*</a>*/}
+                </Modal>
+                <Modal>
+                    {/*<a href={"https://hameau-de-la-savouillane.com"} title={"Hameau de la Savouillane"}*/}
+                    {/*   className={style.project} target={"_blank"} rel={"noreferrer"}>*/}
+                        <img src={hameau} alt="Hameau de la Savouillane"/>
+                        <div className={style.labelContainer}>
+                            <span>Hameau de la Savouillane</span>
+                        </div>
+                    {/*</a>*/}
+                </Modal>
+                <Modal>
+                    {/*<a href={"https://mtlk.fr"} title={"MTLK IT"} className={style.project} target={"_blank"}*/}
+                    {/*   rel={"noreferrer"}>*/}
+                        <img src={mtlk} alt="MTLK IT"/>
+                        <div className={style.labelContainer}>
+                            <span>MTLK IT</span>
+                        </div>
+                    {/*</a>*/}
+                </Modal>
+                <Modal>
+                    {/*<a href={"https://stlogiks.fr"} title={"ST Logiks project"} className={style.project}*/}
+                    {/*   target={"_blank"}*/}
+                    {/*   rel={"noreferrer"}>*/}
+                        <img src={stlogiks} alt="ST Logiks"/>
+                        <div className={style.labelContainer}>
+                            <span>ST Logiks</span>
+                        </div>
+                    {/*</a>*/}
+                </Modal>
             </div>
         </section>
     );
