@@ -1,8 +1,8 @@
 @font-face {
     font-family: "RadiateSansBold";
-    src: url("components/00-Base/assets/fonts/radiate-sans-bold.ttf");
-    src: url("components/00-Base/assets/fonts/radiate-sans-bold.woff") format("woff"),
-    url("components/00-Base/assets/fonts/radiate-sans-bold.woff2") format("woff2");
+    src: url("radiate-sans-bold.ttf");
+    src: url("radiate-sans-bold.woff") format("woff"),
+    url("radiate-sans-bold.woff2") format("woff2");
 }
 
 /** {*/

@@ -13,7 +13,7 @@ const Modal = ({children}: Props) => {
             <button type={"button"} className={style.button} onClick={handleShow}>
                 {children}
             </button>
-            <div className={`${style.container} ${show ? style.show : ""}`}>
+            <div className={`${style.container} ${show ? style.show : style.hide}`}>
                 <button type={"button"} onClick={handleHide}>x</button>
             </div>
         </>
