@@ -10,5 +10,5 @@ const Close = ({className}: Props) => {
 
 export default Close;
 type Props = {
-    className: string
+    className?: string
 }

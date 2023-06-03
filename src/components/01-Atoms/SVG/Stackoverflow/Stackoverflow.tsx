@@ -33,5 +33,5 @@ const Stackoverflow = ({className}: Props) => {
 
 export default Stackoverflow;
 type Props = {
-    className: string
+    className?: string
 }

@@ -1,6 +1,6 @@
 import style from "./Portfolio.module.scss"
 import Modal from "../../01-Atoms/Modal/Modal.tsx";
-import {projectList} from "../../00-Base/ProjectList/ProjectList.ts";
+import {projectList} from "../../00-Base/ProjectList/ProjectList.tsx";
 
 const Portfolio = () => {
     return (

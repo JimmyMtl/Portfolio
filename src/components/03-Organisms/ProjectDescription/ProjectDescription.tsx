@@ -34,9 +34,9 @@ const ProjectDescription = ({
                 </div>
             </div>
             <div className={style.content}>
-                <h3 className={style.subtitle}>[Des]<span className="gradient">cription</span></h3>
+                <h4 className={style.subtitle}>[Des]<span className="gradient">cription</span></h4>
                 <p className={style.text}>{description}</p>
-                <h3 className={style.subtitle}>[Tech]<span className="gradient">nologies</span></h3>
+                <h4 className={style.subtitle}>[Tech]<span className="gradient">nologies</span></h4>
                 <ul className={style.list}>
                     {technologies.map((technology, idx) => (
                         <li className={style.item} key={idx}>
@@ -45,17 +45,19 @@ const ProjectDescription = ({
                         </li>
                     ))}
                 </ul>
-                <h3 className={style.subtitle}>[Lin]<span className="gradient">ks</span></h3>
-                <ul className={style.list}>
-                    {links.map((link, idx) => (
-                        <li className={style.item} key={idx}>
-                            <a href={link.url} target={"_blank"} rel={"noreferrer"}>
-                                <link.icon className={style.icon}/>
-                                {link.name}
-                            </a>
-                        </li>
-                    ))}
-                </ul>
+                {links?.length ? <><h4 className={style.subtitle}>[Lin]<span className="gradient">ks</span></h4>
+                        <ul className={style.list}>
+                            {links.map((link, idx) => (
+                                <li className={style.item} key={idx}>
+                                    <a href={link.url} target={"_blank"} rel={"noreferrer"}>
+                                        <link.icon className={style.icon}/>
+                                        {link.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </>
+                    : null}
             </div>
         </div>
     );
