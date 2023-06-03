@@ -66,7 +66,7 @@ const AboutMe = () => {
 
                 </div>
             </div>
-            <ScrollButton href={"#educationexperiences"}/>
+            <ScrollButton href={"#educations"}/>
         </section>
     );
 };

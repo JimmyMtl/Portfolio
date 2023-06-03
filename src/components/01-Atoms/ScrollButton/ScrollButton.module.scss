@@ -5,12 +5,14 @@
   animation: move infinite 4s ease-in-out;
   transition: .25s ease-in-out;
   padding: 1rem;
+  display: none;
 
   .downChevron {
     width: 3rem;
     height: 3rem;
   }
-  &:hover{
+
+  &:hover {
     filter: grayscale(.5);
   }
 }
@@ -21,5 +23,12 @@
   }
   75% {
     transform: translateY(-10px);
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .container {
+    display: block;
+
   }
 }

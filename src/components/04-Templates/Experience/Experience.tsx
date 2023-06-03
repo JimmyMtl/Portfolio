@@ -37,7 +37,7 @@ const experienceList = [
 ]
 const Experience = () => {
     return (
-        <section className={style.container} id={"educationexperiences"}>
+        <section className={style.container} id={"experiences"}>
             <h2>[EXP]<span className="gradient">ERIENCE</span>.</h2>
             <CardsList list={experienceList} color={"dark"}/>
             <ScrollButton href={"#portfolio"}/>

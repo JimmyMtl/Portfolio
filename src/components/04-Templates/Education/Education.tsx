@@ -30,10 +30,10 @@ const educationList = [
 
 const Education = () => {
     return (
-        <section className={style.container} id={"educationexperiences"}>
+        <section className={style.container} id={"educations"}>
             <h2>[EDU]<span className="gradient">CATION</span>.</h2>
             <CardsList list={educationList} color={"light"}/>
-            <ScrollButton href={"#portfolio"}/>
+            <ScrollButton href={"#experiences"}/>
         </section>
     );
 };

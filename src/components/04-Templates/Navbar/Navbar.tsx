@@ -7,9 +7,9 @@ const Navbar = () => {
             <div>
                 <ul className={style.linksWrapper}>
                     <li><a href="#aboutme">About</a></li>
-                    <li><a href="#formations">Formations</a></li>
-                    <li><a href="#">Experiences</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#educations">Educations</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                     <li>
                         <a href="/cv.pdf" download className={style.downloadButton}><Download/>Télécharger</a></li>
