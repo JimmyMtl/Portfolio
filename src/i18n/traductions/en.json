@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "about": "About",
+    "educations": "Educations",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact",
+    "download": "Download my resume"
+  },
+  "profile": {
+    "title": "Hi! I'm",
+    "subtitle": "Software engineer"
+  }
+}

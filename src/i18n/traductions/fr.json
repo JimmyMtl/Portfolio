@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "about": "A propos",
+    "educations": "Formations",
+    "experiences": "Experiences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "download": "Télécharger mon CV"
+  },
+  "profile": {
+    "title": "Salut ! Je m'appelle",
+    "subtitle": "Ingénieur logiciel"
+  }
+}

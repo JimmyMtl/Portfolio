@@ -1,22 +1,19 @@
 import style from "./Profile.module.scss"
 import ScrollButton from "../../01-Atoms/ScrollButton/ScrollButton.tsx";
+import {useTranslation} from "react-i18next";
+
 const Profile = () => {
+    const {t} = useTranslation();
+
     return (
         <section className={style.container}>
             {/*<StarsBackground/>*/}
 
             <div className={style.wrapper}>
                 <div className={style.textWrapper}>
-                    <h1>Hi! I’m <span className={"gradient"}>Jimmy</span>.</h1>
-                    <h3>Software engineer</h3>
-                    {/*<div className={style.linksWrapper}>*/}
-                    {/*    <a href="#" className={style.contact}>Me contacter</a>*/}
-                    {/*    <a href="/cv.pdf" className={style.download} download>Télécharger mon CV</a>*/}
-                    {/*</div>*/}
+                    <h1>{t('profile.title')} <span className={"gradient"}>Jimmy</span>.</h1>
+                    <h3>{t('profile.subtitle')}</h3>
                 </div>
-                {/*<div className={style.profileImage}>*/}
-                {/*    <img src={ProfileImage} alt="Photo de profil"/>*/}
-                {/*</div>*/}
             </div>
             <ScrollButton href={"#aboutme"}/>
         </section>

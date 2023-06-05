@@ -4,6 +4,7 @@ import AboutMe from "./components/04-Templates/AboutMe/AboutMe.tsx";
 import Education from "./components/04-Templates/Education/Education.tsx";
 import Portfolio from "./components/04-Templates/Portfolio/Portfolio.tsx";
 import Experience from "./components/04-Templates/Experience/Experience.tsx";
+import Lang from "./i18n/Lang.tsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <header>
                 <Navbar/>
                 <Profile/>
+                <Lang/>
                 <AboutMe/>
                 <Education/>
                 <Experience/>
