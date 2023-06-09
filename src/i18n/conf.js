@@ -3,8 +3,8 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { Language } from "./enums/Language.ts";
 let defaultLanguage = Language.FR;
-import translationEN from './traductions/en.json'
-import translationFR from './traductions/fr.json'
+import translationEN from './traductions/en.jsx'
+import translationFR from './traductions/fr.jsx'
 const resources = {
     en: {
         translation: translationEN

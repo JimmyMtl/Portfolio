@@ -23,7 +23,7 @@ const Lang = () => {
     }
 
     return (
-                <select value={lang} style={{position: "fixed", top:"5rem",left:"1rem"}} name="language" onChange={changeLanguage}>
+                <select value={lang} style={{position: "absolute", top:"1rem",left:"1rem"}} name="language" onChange={changeLanguage}>
                     <option value={Language.FR}>FR</option>
                     <option value={Language.EN}>EN</option>
                 </select>

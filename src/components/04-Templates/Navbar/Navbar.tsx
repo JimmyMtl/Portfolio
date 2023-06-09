@@ -1,6 +1,7 @@
 import style from "./Navbar.module.scss"
 import Download from "../../01-Atoms/SVG/Download/Download.tsx";
 import {useTranslation} from "react-i18next";
+import Lang from "../../../i18n/Lang.tsx";
 
 const Navbar = () => {
     const {t} = useTranslation();
@@ -8,6 +9,8 @@ const Navbar = () => {
     return (
         <nav className={style.container}>
             <div>
+                <Lang/>
+
                 <ul className={style.linksWrapper}>
                     <li><a href="#aboutme">{t('navbar.about')}</a></li>
                     <li><a href="#educations">{t('navbar.educations')}</a></li>
@@ -15,7 +18,8 @@ const Navbar = () => {
                     <li><a href="#portfolio">{t('navbar.projects')}</a></li>
                     <li><a href="#">Contact</a></li>
                     <li>
-                        <a href="/cv.pdf" download className={style.downloadButton}><Download/>{t('navbar.download')}</a></li>
+                        <a href="/cv.pdf" download className={style.downloadButton}><Download/>{t('navbar.download')}
+                        </a></li>
                 </ul>
             </div>
         </nav>
