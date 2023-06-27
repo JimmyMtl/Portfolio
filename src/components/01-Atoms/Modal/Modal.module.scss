@@ -83,7 +83,7 @@
   -webkit-backdrop-filter: blur(10px);
   bottom: 0;
   left: 0;
-  transition: 2s ease;
+  transition: 1s ease;
   animation-fill-mode: both;
   z-index: 999;
   transform: translateY(100%);
@@ -107,16 +107,20 @@
     justify-content: center;
     align-items: center;
     background: transparent;
-    border: 1px solid #0c4a6e;
-    color: #0c4a6e;
+    color: #DDDDDD;
+    border: none;
     border-radius: 5px;
     transition: .25s ease-in-out;
     margin: 1rem;
-
+    svg{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
     &:hover {
       color: white;
       border-color: white;
       cursor: pointer;
+      transform: scale(1.1)
     }
   }
 
