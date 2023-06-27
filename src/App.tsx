@@ -11,11 +11,11 @@ function App() {
             <header>
                 <Navbar/>
                 <Profile/>
+            </header>
                 <AboutMe/>
                 <Education/>
                 <Experience/>
                 <Portfolio/>
-            </header>
         </>
     )
 }
