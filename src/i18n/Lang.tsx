@@ -1,6 +1,9 @@
 import {ChangeEvent, useState} from "react"
 import {useTranslation} from 'react-i18next';
 import {Language} from './enums/Language.ts';
+import style from "./Lang.module.scss"
+import Fr from "../components/01-Atoms/SVG/FR.tsx";
+import En from "../components/01-Atoms/SVG/EN.tsx";
 
 const Lang = () => {
     const {i18n} = useTranslation();
@@ -23,10 +26,10 @@ const Lang = () => {
     }
 
     return (
-                <select value={lang} style={{position: "absolute", top:"1rem",left:"1rem"}} name="language" onChange={changeLanguage}>
-                    <option value={Language.FR}>FR</option>
-                    <option value={Language.EN}>EN</option>
-                </select>
+        <select value={lang} className={style.container} name="language" onChange={changeLanguage}>
+            <option value={Language.FR}>Fr</option>
+            <option value={Language.EN}>En</option>
+        </select>
     )
 }
 
