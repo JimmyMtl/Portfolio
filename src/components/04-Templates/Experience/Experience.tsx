@@ -9,21 +9,21 @@ import Sncf from "../../00-Base/assets/images/Logos/Sncf/Sncf.png"
 
 const experienceList = [
     {
-        title: "Intern Fullstack Developper",
+        title: "Intern Fullstack Developer",
         location: <><b>Razorfish</b>, Nancy (France)</>,
         years: "2022 - July 28, 2023",
         logo: Razorfish
 
     },
     {
-        title: "Pré-MSc, Titre de responsable projet Web et Mobile (Bac+3)",
+        title: "Intern Fullstack Developer",
         location: <><b>CLUB ATOUTALENT</b>, Nancy (France)</>,
         years: "2021 - 2022",
         logo: Club
 
     },
     {
-        title: "IT Specialist & Freelance Developper",
+        title: "IT Specialist & Freelance Developer",
         location: <><b>MTLK IT</b>, Nancy (France)</>,
         years: "2020 - Tod.",
         logo: Mtlk
