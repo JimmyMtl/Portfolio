@@ -39,7 +39,7 @@ const Experience = () => {
     return (
         <section className={style.container} id={"experiences"}>
             <h2>[EXP]<span className="gradient">ERIENCE</span>.</h2>
-            <CardsList list={experienceList} color={"dark"}/>
+            <CardsList list={experienceList} color={"light"}/>
             <ScrollButton href={"#portfolio"}/>
         </section>
     );

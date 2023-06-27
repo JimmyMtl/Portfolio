@@ -2,8 +2,6 @@ import {ChangeEvent, useState} from "react"
 import {useTranslation} from 'react-i18next';
 import {Language} from './enums/Language.ts';
 import style from "./Lang.module.scss"
-import Fr from "../components/01-Atoms/SVG/FR.tsx";
-import En from "../components/01-Atoms/SVG/EN.tsx";
 
 const Lang = () => {
     const {i18n} = useTranslation();
