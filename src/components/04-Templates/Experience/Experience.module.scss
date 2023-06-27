@@ -1,0 +1,18 @@
+.container {
+  min-height: 100dvh;
+  position: relative;
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-direction: column;
+
+  .listContainer {
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+  }
+}
