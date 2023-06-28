@@ -5,10 +5,6 @@
     url("radiate-sans-bold.woff2") format("woff2");
 }
 
-/** {*/
-/*    outline: 1px red solid;*/
-/*}*/
-
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -25,8 +21,7 @@
 }
 
 body {
-    max-width: 100dvw;
-    min-height: 100dvh;
+    width: 100dvw;
     background-color: #1A1A1A;
 }
 
@@ -55,32 +50,30 @@ ul {
 }
 
 h1 {
-    /*font-size: 3.75rem;*/
-    font-size: 4.75dvw;
+    font-size: 12dvw;
     font-family: "RadiateSansBold", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 
 h2 {
-    font-size: 3rem;
+    font-size: 9dvw;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 8dvw;
 
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h5 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 
 }
 
-@media screen and (max-width: 48rem)
-{
+@media screen and (min-width: 21.75rem)and (max-width: 48rem) {
     h1 {
         font-size: 3.75rem;
         font-family: "RadiateSansBold", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -106,9 +99,36 @@ h5 {
     }
 }
 
-svg{
+@media screen and (min-width: 48rem) {
+    h1 {
+        font-size: 4.75dvw;
+        font-family: "RadiateSansBold", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    }
+
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+
+    }
+}
+
+svg {
     width: 1rem;
 }
+
 .gradient {
     background: linear-gradient(to right, #24A3B7, #3E727A);
     -webkit-background-clip: text;
